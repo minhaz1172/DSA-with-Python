@@ -32,3 +32,26 @@ if 60 in List:
       print("yes")
 else:
       print("no")
+
+ #string in python
+   #string is a collection of characters
+str="Minhaz Uddin"
+print(str)
+
+# accessing string element
+print(str[2]) 
+print(str[-2])
+
+# iterate in a string
+for i in range(len(str)):
+      print(str[i]) #o(n)
+
+#concate two string
+s1=" is an Engineer"
+s2=str+s1
+print(s2)
+
+#search in a string
+if "Minhaz" in str:
+      print("yes")
+     
